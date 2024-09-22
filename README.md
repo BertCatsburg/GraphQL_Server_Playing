@@ -2,7 +2,7 @@
 
 ## Source
 #### Poging 1
-Werkt niet : https://docs.graphene-python.org/projects/django/en/latest/tutorial-plain/
+Werkt niet : 
 
 #### Poging 2
 https://blog.devgenius.io/graphql-with-django-7dbbfb556461

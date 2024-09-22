@@ -15,8 +15,8 @@ class Header(models.Model):
 
 class Item(models.Model):
     orderitemid = models.IntegerField(primary_key=True)
-    orderid = models.IntegerField(primary_key=True)
-    productid = models.IntegerField(primary_key=True)
+    orderid = models.IntegerField(primary_key=False)
+    productid = models.IntegerField(primary_key=False)
     qty = models.IntegerField()
     price = models.DecimalField(max_digits=10, decimal_places=2)
     vat = models.DecimalField(max_digits=10, decimal_places=2)
